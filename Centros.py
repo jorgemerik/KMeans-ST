@@ -4,8 +4,8 @@ estos promedios se van a convertir en los nuevos centros"""
 
 import numpy as np
 
-def centros (Datos):
-
-    centro = np.mean(Datos, axis=0)
-
-    return centro
+def centros(Datos):
+    centros = []
+    for l in Datos:
+        centros.append(np.mean(l, axis=0))
+    return centros
