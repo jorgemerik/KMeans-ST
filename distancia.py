@@ -1,3 +1,6 @@
+"""
+Devuelve la distancia euclideana entre dos klistas
+"""
 #distancia.py
 from scipy.spatial import distance
 
