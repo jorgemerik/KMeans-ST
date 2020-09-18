@@ -19,6 +19,7 @@ if __name__ == "__main__":
     y_kmeans = km.predict(X)
     # print(y_kmeans)
     plt.subplot(121)
+    plt.grid(True)
     plt.title("Nuestro")
     plt.scatter(X[:, 0], X[:, 1], s=50, c=y_kmeans,cmap='coolwarm');
     plt.scatter([c[0] for c in km.centers ], [c[1] for c in km.centers ], c='black', s=200, alpha=0.5);
