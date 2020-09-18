@@ -30,5 +30,4 @@ Despues se puede graficar
 plt.scatter(X[:, 0], X[:, 1], s=50, c=y_kmeans,cmap='coolwarm');
 plt.scatter([c[0] for c in km.centers ], [c[1] for c in km.centers ], c='black', s=200, alpha=0.5);
 ```
-
-![Clustering Plot]()
+<img src="https://github.com/StephanGuingor/KMeans-ST/blob/master/data/kmeans.JPG?raw=true" width="200" alt="Plot" style="display: block; margin: auto;">
